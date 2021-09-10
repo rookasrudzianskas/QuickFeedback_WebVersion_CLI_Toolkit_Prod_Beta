@@ -73,3 +73,5 @@ const Feedback = ({ author, text, createdAt, provider, isLast, settings }) => {
 };
 
 export default Feedback;
+
+// markdown setup
