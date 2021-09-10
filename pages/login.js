@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Stack, Icon } from '@chakra-ui/core';
+import {Box, Button, Flex, Stack, Icon, Image} from '@chakra-ui/core';
 import { useAuth } from '@/lib/auth';
 import Page from '@/components/Page';
 
@@ -24,7 +24,7 @@ const Login = () => {
       >
         <Flex justify="center">
           <Box as="a" href="/" aria-label="Back to homepage">
-            <Icon color="black" name="logo" size="56px" mb={4} />
+            <Image boxSize="200px" src="/og.png" alt="Dan" />
           </Box>
         </Flex>
         <Button

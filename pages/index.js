@@ -34,7 +34,7 @@ const Home = ({ allFeedback, site }) => {
             <script
               dangerouslySetInnerHTML={{
                 __html: `
-              if (document.cookie && document.cookie.includes('fast-feedback-auth')) {
+              if (document.cookie && document.cookie.includes('quick-feedback-auth')) {
                 window.location.href = "/sites"
               }
             `
@@ -44,17 +44,10 @@ const Home = ({ allFeedback, site }) => {
           <Icon color="black" name="logo" size="48px" mb={2} />
           <Text mb={4} fontSize="lg" py={4}>
             <Text as="span" fontWeight="bold" display="inline">
-              Fast Feedback
+              Quick Feedback
             </Text>
-            {' was built as part of '}
-            <Link
-              href="https://react2025.com"
-              isExternal
-              textDecoration="underline"
-            >
-              React 2025
-            </Link>
-            {`. It's the easiest way to add comments or reviews to your static site. Try it out by leaving a comment below. After the comment is approved, it will display below.`}
+
+            {`. It's the easiest way to add comments or reviews to your static site. Try it out by leaving a comment below. After the comment is approved, it will display below. Just one line of code on your site, gets you full commenting system working like 🔥`}
           </Text>
           {auth.user ? (
             <Button
