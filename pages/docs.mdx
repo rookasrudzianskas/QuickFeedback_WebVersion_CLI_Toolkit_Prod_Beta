@@ -70,3 +70,32 @@ function Feedback () {
   ))}
 }
 ```
+
+### Quick Feedback live demo example
+
+If you would like to check the complete working product, you can take a look at the live demo below.
+Simple go to the following URL [Quick Feedback Demo](https://quick-feedback-tool-demo-nextjs.vercel.app/)
+
+**Simple Example**
+
+```jsx
+<div className="flex">
+              <div>
+                <iframe src="https://quickfeedback.digital/embed/SITE ID" />
+              </div>
+              <div>
+                  <IframeResizer
+                      checkOrigin={false}
+                      title="Comments"
+                      src={`https://quickfeedback.digital/embed/SITE ID`}
+                      style={{
+                          width: '1px',
+                          minWidth: '100%',
+                          minHeight: '100%',
+                      }}
+                  />
+              </div>
+          </div>
+```
+
+**_Cheers_**, happy building 👋, by [**Rokas Rudzianskas**](https://wwww.byrookas.com/) ❤️
