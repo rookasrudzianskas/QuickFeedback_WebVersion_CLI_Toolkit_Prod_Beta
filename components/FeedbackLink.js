@@ -27,7 +27,7 @@ export default function FeedbackLink({ paths }) {
       >
         Leave a comment →
       </Link>
-      <Link fontSize="xs" color="gray.500" href="/" target="_blank">
+      <Link fontSize="xs" color="gray.500" href="https://www.byrookas.com/" target="_blank">
         Powered by Quick Feedback (Beta Production) created by Rokas Rudzianskas with ❤️
       </Link>
     </Flex>
