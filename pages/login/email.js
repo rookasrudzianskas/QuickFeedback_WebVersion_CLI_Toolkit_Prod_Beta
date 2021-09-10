@@ -8,7 +8,7 @@ import {
   Input,
   Stack,
   Icon,
-  useToast
+  useToast, Image
 } from '@chakra-ui/core';
 import { useForm } from 'react-hook-form';
 import { useState } from 'react';
@@ -54,7 +54,7 @@ const Login = () => {
       >
         <Flex justify="center">
           <Box as="a" href="/" aria-label="Back to homepage">
-            <Icon color="black" name="logo" size="64px" mb={4} />
+            <Image boxSize="200px" src="/og.png" alt="Dan" />
           </Box>
         </Flex>
         <FormControl isInvalid={errors.email && errors.email.message}>

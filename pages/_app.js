@@ -46,7 +46,7 @@ const App = ({ Component, pageProps }) => {
   useEffect(() => {
     if (process.env.NODE_ENV === 'production') {
       Fathom.load(process.env.NEXT_PUBLIC_FATHOM_SITE_ID, {
-        includedDomains: ['fastfeedback.io']
+        includedDomains: ['quickfeedback.digital']
       });
     }
   }, []);
